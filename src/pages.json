@@ -1,0 +1,153 @@
+{
+  "pages": [
+    {
+      "path": "pages/question/list",
+      "style": {
+        "navigationBarTitleText": "题库"
+      }
+    },
+    {
+      "path": "pages/class/list",
+      "style": {
+        "navigationBarTitleText": "我的班级"
+      }
+    },
+    {
+      "path": "pages/exam/list",
+      "style": {
+        "navigationBarTitleText": "考试"
+      }
+    },
+    {
+      "path": "pages/post/list",
+      "style": {
+        "navigationBarTitleText": "社区"
+      }
+    },
+    {
+      "path": "pages/user/profile",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/auth/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/auth/register",
+      "style": {
+        "navigationBarTitleText": "注册",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/question/detail",
+      "style": {
+        "navigationBarTitleText": "题目详情"
+      }
+    },
+    {
+      "path": "pages/post/detail",
+      "style": {
+        "navigationBarTitleText": "帖子详情"
+      }
+    },
+    {
+      "path": "pages/post/edit",
+      "style": {
+        "navigationBarTitleText": "发布帖子"
+      }
+    },
+    {
+      "path": "pages/class/detail",
+      "style": {
+        "navigationBarTitleText": "班级详情"
+      }
+    },
+    {
+      "path": "pages/exam/take",
+      "style": {
+        "navigationBarTitleText": "考试答题",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/exam/result",
+      "style": {
+        "navigationBarTitleText": "考试结果"
+      }
+    },
+    {
+      "path": "pages/exam/practice",
+      "style": {
+        "navigationBarTitleText": "个性化练习"
+      }
+    },
+    {
+      "path": "pages/recommend/index",
+      "style": {
+        "navigationBarTitleText": "个性化推荐"
+      }
+    },
+    {
+      "path": "pages/ai/chat",
+      "style": {
+        "navigationBarTitleText": "AI 助手"
+      }
+    },
+    {
+      "path": "pages/class/chat",
+      "style": {
+        "navigationBarTitleText": "班级聊天"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智学OJ",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1890FF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/question/list",
+        "text": "题库",
+        "iconPath": "static/tab/question.png",
+        "selectedIconPath": "static/tab/question-active.png"
+      },
+      {
+        "pagePath": "pages/class/list",
+        "text": "班级",
+        "iconPath": "static/tab/class.png",
+        "selectedIconPath": "static/tab/class-active.png"
+      },
+      {
+        "pagePath": "pages/exam/list",
+        "text": "考试",
+        "iconPath": "static/tab/exam.png",
+        "selectedIconPath": "static/tab/exam-active.png"
+      },
+      {
+        "pagePath": "pages/post/list",
+        "text": "社区",
+        "iconPath": "static/tab/post.png",
+        "selectedIconPath": "static/tab/post-active.png"
+      },
+      {
+        "pagePath": "pages/user/profile",
+        "text": "我的",
+        "iconPath": "static/tab/user.png",
+        "selectedIconPath": "static/tab/user-active.png"
+      }
+    ]
+  }
+}
